@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #353a40;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.logo{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.logo span{
+    font-size: 20px;
+    color: #e4e4e4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttons{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #999da0;
+}
+
+.buttons button:nth-child(1){
+    color: #e4e4e4;
+}
+
+.buttons button:nth-child(5){
+    color: #25a514;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url('img/hawaii.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.over-img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .65);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 130px 100px 0;
+}
+
+.over-img-info{
+    height: 55%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+}
+
+.over-img-info h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.over-img-info p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+}
+
+.over-img-info .over-buttons{
+    margin-top: 15px;
+}
+
+.over-buttons button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.over-buttons button:nth-child(2){
+    background-color: #28a643;
+    border: none;
+}
+
+main{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+main h3{
+    font-size: 12px;
+
+}
+
+main h2{
+    font-size: 30px;
+}
+
+main .oradores{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.orador{
+    height: 95%;
+    width: 320px;
+    margin: 0 15px 0 15px;
+    box-shadow: 0px 0px 1px 1px rgba(196, 196, 196, 0.75);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.orador-img{
+    width: 100%;
+    height: 60%;
+}
+
+.orador-text{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oradores-text-head{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.leng{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.js{
+    height: 22px;
+    background-color: #ffdc16;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.react{
+    height: 22px;
+    background-color: #26acc4;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.su{
+    height: 22px;
+    background-color: #c42626;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.nego{
+    height: 22px;
+    background-color: #454e50;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.oradores-text-head h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #353a40;
+}
+
+.orador-text p{
+    height: 70%;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    color: #464a4e;
+}
+
+.octubre{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.octubre-img{
+    width: 50%;
+    height: 100%;
+    background-image: url('img/honolulu.jpg');
+    background-position: center;
+    background-size: cover;
+    border-right: 1px solid white;
+}
+
+.octubre-text{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid white;
+    background-color: #353a40;
+    padding: 20px;
+}
+
+.octubre-text h2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.octubre-text p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(223, 223, 223);
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.octubre-text button{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(223, 223, 223);
+    width: 100px;
+    height: 30px;
+    font-weight: 200;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.formulario{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario h3{
+    font-size: 12px;
+
+}
+
+.formulario h2{
+    font-size: 30px;
+}
+
+.formulario-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+}
+
+.form-inputs{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-inputs input:nth-child(1){
+    width: 49%;
+}
+
+.form-inputs input:nth-child(2){
+    width: 49%;
+}
+
+.formulario-form textarea{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.formulario-form p{
+    font-size: 12px;
+    color: #464a4e;
+    text-align: left;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.submit{
+    height: 40px;
+    width: 700px;
+    background-color: #28a643;
+    color: white;
+    border: none;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(20, 41, 109);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
